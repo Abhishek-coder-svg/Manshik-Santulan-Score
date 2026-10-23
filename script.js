@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  const API_BASE = window.MENTAL_HEALTH_API_URL || "http://127.0.0.1:8000";
+  const API_BASE = window.MENTAL_HEALTH_API_URL || "https://manshik-santulan-score-l6p8.onrender.com";
 
   const form = document.getElementById("predict-form");
   const submitBtn = document.getElementById("submit-btn");
